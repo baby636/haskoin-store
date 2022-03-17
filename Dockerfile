@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:11.2
 RUN apt update
 RUN apt install -y libsecp256k1-dev
 RUN apt install -y librocksdb-dev
